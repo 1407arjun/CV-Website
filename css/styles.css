@@ -1,0 +1,139 @@
+body{
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 5rem;
+    margin: 0;
+}
+
+h2{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 2rem;
+    margin: 0;
+}
+
+h3{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.banner-title{
+    animation: title-anim 2s 0.25s none;
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    text-shadow: 4px 4px 8px black;
+
+}
+
+@keyframes title-anim {
+    from{
+        top: 100%;
+        opacity: 0;
+    }
+
+    to{
+        top: 30%;
+        opacity: 1;
+    }
+}
+
+.banner-subtitle{
+    animation: subtitle-anim 2s 0.25s none;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    text-shadow: 4px 4px 8px black;
+}
+
+@keyframes subtitle-anim {
+    from{
+        top: 100%;
+        opacity: 0;
+    }
+
+    to{
+        top: 50%;
+        opacity: 1;
+    }
+}
+
+.side-hr-1{
+    border-bottom: none;
+    border-top: solid #185adb 2px;
+    display: inline-block; 
+    width: 5%;
+}
+
+.div-heading-1{
+    color: #0A1931;
+    display: inline-block; 
+    margin: 2%;
+}
+
+.side-hr-2{
+    border-bottom: none;
+    border-top: solid #ffc947 2px;
+    display: inline-block; 
+    width: 5%;
+}
+
+.div-heading-2{
+    color: white;
+    display: inline-block; 
+    margin: 2%;
+}
+
+.top-div{
+    color: white;
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.about-holder-div{
+    background: rgb(255, 255, 255, 0.5) url(../raw/bodybg.png);
+    background-size: 100%;
+    margin: 0 auto 2%;
+}
+
+.about-div{
+    border-radius: 2%;
+    background-color: #feddbe;
+    box-shadow: 8px 8px 16px;
+    color: #0A1931;
+    width: 90%;
+    line-height: 2;
+    margin: 0 auto;
+    padding: 2%;
+    text-align: left;
+}
+
+.projects-holder-div{
+    background-color: #0A1931;
+    background-size: 100%;
+    margin: 2% auto;
+}
+
+#banner{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+#profile-pic{
+    border-radius: 50%;
+    float: left;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    width: 32%;
+}
