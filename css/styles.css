@@ -94,6 +94,13 @@ p{
     margin: 2%;
 }
 
+.side-hr-3{
+    border-bottom: none;
+    border-top: solid white 2px;
+    display: inline-block; 
+    width: 20%;
+}
+
 .top-div{
     color: white;
     height: 100%;
@@ -116,7 +123,7 @@ p{
     width: 90%;
     line-height: 2;
     margin: 0 auto;
-    padding: 2%;
+    padding: 2% 4% 4%;
     text-align: left;
 }
 
