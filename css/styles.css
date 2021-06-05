@@ -18,6 +18,7 @@ h2{
 
 h3{
     margin: 0;
+    font-family: 'Source Code Pro', monospace;
     font-size: 1.5rem;
 }
 
@@ -101,7 +102,8 @@ p{
 }
 
 .about-holder-div{
-    background: url(../raw/bodybg.png);
+    background: url(../raw/bodybg.png) no-repeat;
+    background-position: top;
     background-size: 100%;
     margin: 0 auto 2%;
 }
@@ -119,10 +121,52 @@ p{
 }
 
 .projects-holder-div{
+    background: url(../raw/projectbg.png) no-repeat;
+    background-position: center;
     background-color: #0A1931;
     background-size: 100%;
     margin: 2% auto;
 }
+
+.projects-div{
+    margin: 0 auto;
+    width: 90%;
+    padding: 0 2% 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
+}
+
+.project{
+    background-color: #185adb;
+    border-radius: 2%;
+    box-shadow: 4px 4px 8px black;
+    color: white;
+    display: inline-block;
+    line-height: 2;
+    margin: 4%;
+    padding-bottom: 2%;
+}
+
+.project:hover{
+    background-color: #0f0e0f;
+    box-shadow: none;
+    padding: 25%;
+    content: url(../raw/github.png);
+    width: 15rem;
+    height: 13rem;
+}
+
+.project-image{
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    width: 100%;
+}
+
+/* .project-image:hover{
+    content: url(../raw/go2git.png);
+    width: 100%;
+} */
 
 #banner{
     width: 100%;
