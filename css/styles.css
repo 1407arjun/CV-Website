@@ -101,7 +101,7 @@ p{
 }
 
 .about-holder-div{
-    background: rgb(255, 255, 255, 0.5) url(../raw/bodybg.png);
+    background: url(../raw/bodybg.png);
     background-size: 100%;
     margin: 0 auto 2%;
 }
