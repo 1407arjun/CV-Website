@@ -105,7 +105,7 @@ p{
     background: url(../raw/bodybg.png) no-repeat;
     background-position: top;
     background-size: 100%;
-    margin: 0 auto 2%;
+    margin: 0 auto 4%;
 }
 
 .about-div{
@@ -125,13 +125,13 @@ p{
     background-position: center;
     background-color: #0A1931;
     background-size: 100%;
-    margin: 2% auto;
+    margin: 2% auto 0;
 }
 
 .projects-div{
     margin: 0 auto;
     width: 90%;
-    padding: 0 2% 2%;
+    padding: 0 2% 4%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2%;
@@ -162,11 +162,6 @@ p{
     border-top-right-radius: 2%;
     width: 100%;
 }
-
-/* .project-image:hover{
-    content: url(../raw/go2git.png);
-    width: 100%;
-} */
 
 #banner{
     width: 100%;
