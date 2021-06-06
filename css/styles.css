@@ -48,7 +48,12 @@ a{
 footer{
     background-color: black;
     color: white;
-    padding: 0 1%;
+    padding: 1%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner-title{
@@ -266,23 +271,33 @@ footer{
     display: block;
 }
 
-.footer-cp{
+.footer-start{
+    width: 100%;
     margin: auto;
-    text-align: start;
-    position: relative;
-    top: 1.25rem;
+    text-align: left;
+    /* position: relative;
+    top: 1.25rem; */
+}
+
+.footer-mid{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    /* position: relative;
+    top: 1.25rem; */
 }
 
 .social-links-div{
+    width: fit-content;
     text-align: end;
     padding: 0;
-    position: relative;
-    bottom: 1.2rem;
+    /* position: relative;
+    bottom: 1.2rem; */
 }
 
 .social-links{
     margin: 0 2%;
-    width: 2%;
+    width: 5%;
 }
 
 .social-links:hover{
