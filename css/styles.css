@@ -32,8 +32,8 @@ h4{
 
 h5{
     margin: 0;
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 0.8rem;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 1rem;
 }
 
 p{
@@ -48,8 +48,7 @@ a{
 footer{
     background-color: black;
     color: white;
-    padding: 1%;
-    position: relative;
+    padding: 0 1%;
 }
 
 .banner-title{
@@ -269,20 +268,16 @@ footer{
 
 .footer-cp{
     margin: auto;
-    display: inline-block;
     text-align: start;
-    position: absolute;
-    left: 5rem;
-    top: 2rem;
+    position: relative;
+    top: 1.25rem;
 }
 
 .social-links-div{
-    display: inline;
-    position: absolute;
-    right: 5rem;
-    top: 2rem;
     text-align: end;
     padding: 0;
+    position: relative;
+    bottom: 1.2rem;
 }
 
 .social-links{
