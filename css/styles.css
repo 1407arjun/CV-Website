@@ -22,9 +22,34 @@ h3{
     font-size: 1.5rem;
 }
 
+h4{
+    margin: 4% auto;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.25rem;
+    padding: 0 4%;
+    text-shadow: 2px 2px 4px black;
+}
+
+h5{
+    margin: 0;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 0.8rem;
+}
+
 p{
     font-size: 1.2rem;
     margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 1%;
+    position: relative;
 }
 
 .banner-title{
@@ -68,6 +93,14 @@ p{
     }
 }
 
+.banner{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    margin: 0;
+    display: block;
+}
+
 .side-hr-1{
     border-bottom: none;
     border-top: solid #185adb 2px;
@@ -107,12 +140,19 @@ p{
     margin: 0;
     position: relative;
 }
-
 .about-holder-div{
     background: url(../raw/bodybg.png) no-repeat;
     background-position: top;
     background-size: 100%;
     margin: 0 auto 4%;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    float: left;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    width: 32%;
 }
 
 .about-div{
@@ -123,7 +163,7 @@ p{
     width: 90%;
     line-height: 2;
     margin: 0 auto;
-    padding: 2% 4% 4%;
+    padding: 2% 4% 2%;
     text-align: left;
 }
 
@@ -149,19 +189,20 @@ p{
     border-radius: 2%;
     box-shadow: 4px 4px 8px black;
     color: white;
-    display: inline-block;
     line-height: 2;
     margin: 4%;
     padding-bottom: 2%;
+    transition: all .2s ease-in-out;
 }
 
 .project:hover{
-    background-color: #0f0e0f;
+    /*background-color: #0f0e0f;
     box-shadow: none;
     padding: 25%;
     content: url(../raw/github.png);
-    width: 15rem;
-    height: 13rem;
+    width: 16rem;
+    height: 13rem;*/
+    transform: scale(1.1);
 }
 
 .project-image{
@@ -170,16 +211,85 @@ p{
     width: 100%;
 }
 
-#banner{
-    width: 100%;
-    height: 100%;
-    opacity: 0.8;
+.awards-holder-div{
+    background: url(../raw/awardsbg.png);
+    background-position: top;
+    background-color: #ffc947;
+    background-size: 100%;
+    margin: 0 auto;
+    position: relative;
 }
 
-#profile-pic{
-    border-radius: 50%;
-    float: left;
-    margin-right: 2rem;
-    margin-top: 1rem;
-    width: 32%;
+.awards-div{
+    margin: 0 auto;
+    width: 90%;
+    padding: 0 2% 4%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2%;
+}
+
+.c2c, .hacksoverflow, .hackulus, .bhilai, .devsoc, .hackupc, .ideafind{
+    background-color: #0A1931;
+    border-radius: 2%;
+    box-shadow: 4px 4px 8px black;
+    color: white;
+    margin: 4%;
+    transition: all .2s ease-in-out;
+    line-height: 1.25;
+}
+
+.c2c:hover, .hacksoverflow:hover, .hackulus:hover, .bhilai:hover,
+.devsoc:hover, .hackupc:hover, .ideafind:hover{
+    transform: scale(1.1);
+}
+
+.bhilai:hover{
+    content: url(../raw/cert-bhilai.png);
+    width: 100%;
+}
+
+.hacksoverflow:hover{
+    content: url(../raw/cert-overflow.png);
+    width: 100%;
+}
+
+.ideafind:hover{
+    content: url(../raw/cert-ideafind.png); 
+    width: 100%;
+}
+
+.award-image{
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    width: 100%;
+    margin: 0;
+    display: block;
+}
+
+.footer-cp{
+    margin: auto;
+    display: inline-block;
+    text-align: start;
+    position: absolute;
+    left: 5rem;
+    top: 2rem;
+}
+
+.social-links-div{
+    display: inline;
+    position: absolute;
+    right: 5rem;
+    top: 2rem;
+    text-align: end;
+    padding: 0;
+}
+
+.social-links{
+    margin: 0 2%;
+    width: 2%;
+}
+
+.social-links:hover{
+    opacity: 0.8;
 }
