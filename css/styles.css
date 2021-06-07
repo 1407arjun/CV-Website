@@ -45,11 +45,12 @@ a{
     text-decoration: none;
 }
 
-footer{
+header{
     background-color: black;
     color: white;
     padding: 1%;
     display: flex;
+    position: fixed;
     flex-flow: row nowrap;
     align-content: center;
     justify-content: center;
