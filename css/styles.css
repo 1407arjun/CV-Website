@@ -45,12 +45,11 @@ a{
     text-decoration: none;
 }
 
-header{
+footer{
     background-color: black;
     color: white;
     padding: 1%;
     display: flex;
-    position: fixed;
     flex-flow: row nowrap;
     align-content: center;
     justify-content: center;
@@ -222,7 +221,6 @@ header{
     background-color: #ffc947;
     background-size: 100%;
     margin: 0 auto;
-    position: relative;
 }
 
 .awards-div{
